@@ -1,0 +1,158 @@
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Chindam Harsha">
+  <meta name="description" content="Trainers Directory - Java">
+  <meta name="keywords" content="Technical Trainers, Java Trainer, Python Trainers, UI Trainers, Database Trainers, AI/ML Trainers">
+  <meta http-equiv="refresh" content="5">
+
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="tutor.css">
+  <script src="script.js"></script>
+</head>
+
+
+<body>
+  <header>
+    <div>
+      <div class="logo-title">GRAVISH EDUNET</div>
+      <div class="logo-subtitle">
+        "Empowering Young Minds with Guided Wisdom & Smart Learning"
+      </div>
+    </div>
+
+    <div class="icon-row">
+      <a href="https://www.instagram.com/your-profile" target="_blank" rel="noopener noreferrer">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram">
+      </a>
+      <a href="https://facebook.com/your-profile" target="_blank" rel="noopener noreferrer">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Facebook_icon.svg" alt="Facebook">
+      </a>
+      <a href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn">
+      </a>
+      <label for="login-toggle" class="login-btn">
+  <div class="login-btn">
+  <button id="openPopup" onclick="openPopup()">Login</button>
+
+  <div id="myPopup" class="popup">
+    <div class="popup-content">
+      <span class="close" onclick="closePopup()">&times;</span>
+      <form name="login" action="./test.jsp" method="POST" onsubmit="return validateForm();">
+        <table>
+          <tr>
+            <td>
+              <label for="username">User Name:</label>
+              <input type="text" name="username" /><br /><br />
+
+              <label for="password">Password:</label>
+              <input type="password" name="password" /><br /><br />
+
+              <label for="emailid">Email ID:</label>
+              <input type="text" name="emailid" /><br /><br />
+
+              <input type="submit" value="Log In" />
+              <input type="reset" value="Clear" />
+            </td>
+          </tr>
+        </table>
+      </form>
+    </div>
+  </div>
+</div>
+
+
+      <button type="button">Sign up</button>
+    </div>
+  </header>
+<section>
+  <div id="section1">
+    <div id="image1">
+      <img src="image3.jpg" alt="Background Image">
+      <div class="overlay-text">Empower Young Minds With Us</div>
+    </div>
+    </div>
+    
+    <div id="cardout">
+      
+<h1>Better tutors, Better grades</h1>
+
+  <div class="cards-container">
+    <div class="card">
+      <p>For Students and Parents</p>
+      <div class="card-description">
+        Individual tutoring for students that want some expert help with their studies.
+      </div>
+      <a class="skl-btn" href="https://www.skooli.com/register/student" title="Sign up now">Sign Up Now</a>
+    </div>
+
+    <div class="card">
+      <p>For Schools and Districts</p>
+      <div class="card-description">
+        District wide tutoring programs to support student success - High dosage and Drop In programs available.
+      </div>
+      <a class="skl-btn" href="#" title="Learn more">Learn More</a>
+    </div>
+  </div>
+
+  <div class="bottom-link">
+    Are you a tutor looking to teach with gravish? <a href="#">Apply here</a>
+  </div>
+  </div>
+  <hr/>
+<div ID="work2">
+  <b>How It Works</b>
+    <div class="progress-container">
+    <div class="progress-line"></div>
+    <div class="step">1</div>
+    <div class="step">2</div>
+    <div class="step">3</div>
+  </div>
+  <table>
+    <tr>
+      <td>Pick Your Subject</td>
+      <td>Book a Free Demo</td>
+      <td>Decide & SignUp</td>
+    </tr>
+  </table>
+</div>
+<hr/>
+
+  <footer>
+    <div class="footer-section">
+      <div class="list-section-1">
+        <h3>Courses</h3>
+        <ul>
+          <li><a href="#">Python Programming</a></li>
+          <li><a href="#">Web Development</a></li>
+          <li><a href="#">Data Structures</a></li>
+          <li><a href="#">AI & ML Basics</a></li>
+          <li><a href="#">Cloud Fundamentals</a></li>
+        </ul>
+      </div>
+
+      <div class="list-section-2">
+        <h3>Tutors</h3>
+        <ul>
+          <li><a href="#">Math Tutor</a></li>
+          <li><a href="#">Science Tutor</a></li>
+          <li><a href="#">Python Tutor</a></li>
+          <li><a href="#">Business Tutor</a></li>
+          <li><a href="#">English Tutor</a></li>
+        </ul>
+      </div>
+
+      <div class="list-section-3">
+        <h3>Contact</h3>
+        <ul>
+          <li><a href="#">Email: gravish@mail.com</a></li><br>
+          <li><a href="#">Phone: +91 9676113302</a></li><br>
+          <li><a href="#">Address: Your Office Location</a></li>
+        </ul>
+      </div>
+
+      <div id="clear"></div>
+    </div>
+
+  </footer>
+
+</body>
